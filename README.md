@@ -33,6 +33,14 @@ echo $userAgent;
 $userAgent = UserAgent::getRandom();
 echo $userAgent;
 ```
+## Ouput
+
+```
+Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.216 Safari/537.36
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.130 Safari/537.36
+Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S7609/7048HIXC5; U; Bada/1.2; en-us) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/63 Mobile WVGA SMM-MMS/1.2.0 OPN-B
+Mozilla/5.0 (iPhone 5 X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/8.1.1 Mobile/iPhone14,7 Safari/604.1
+```
 
 ## Contributing
 
