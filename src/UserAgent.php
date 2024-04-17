@@ -63,6 +63,21 @@ class UserAgent{
                 return self::getMobile();
         }
     }
+
+    /**
+     * Generates a random User-Agent string for a random platform (Windows, Linux).
+     *
+     * @return string Random User-Agent string.
+     */
+    public static function getRandomDesktop(){
+        $i = mt_rand(0, 1);
+        switch($i) {
+            case 0:
+                return self::getWindows();
+            case 1:
+                return self::getLinux();
+        }
+    }
     
     /**
      * Retrieves a random Chrome version.
